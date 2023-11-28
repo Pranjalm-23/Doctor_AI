@@ -1,0 +1,30 @@
+doctor-ai/
+|-- src/
+|   |-- __init__.py
+|   |-- api/
+|   |   |-- __init__.py
+|   |   |-- analyze.py         # API route for analyzing user input
+|   |   |-- feedback.py        # API route for receiving user feedback
+|   |
+|   |-- models/
+|   |   |-- __init__.py
+|   |   |-- nlp_model.py       # NLP model implementation
+|   |   |-- ml_model.py        # Machine Learning model implementation
+|   |
+|   |-- services/
+|   |   |-- __init__.py
+|   |   |-- chatgpt_service.py  # Interface with ChatGPT API
+|   |   |-- decision_service.py # Decision-making logic
+|   |
+|   |-- config/
+|       |-- __init__.py
+|       |-- settings.py        # Configuration settings
+|
+|-- tests/
+|   |-- __init__.py
+|   |-- test_analyze.py       # Unit tests for analyze API
+|   |-- test_feedback.py      # Unit tests for feedback API
+|   |-- test_services.py       # Unit tests for services
+|
+|-- main.py                    # Main application entry point
+|-- requirements.txt           # Python dependencies
